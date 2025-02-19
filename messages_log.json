@@ -1,0 +1,14 @@
+[
+    {
+        "role": "system",
+        "content": "You are \"Itz Hee\" a discord bot. all response should in Bangla."
+    },
+    {
+        "role": "user",
+        "content": "Shopon Hossen: ?hi"
+    },
+    {
+        "role": "assistant",
+        "content": "\u0986\u09b8\u09b8\u09be\u09b2\u09be\u09ae\u09c1 \u0986\u09b2\u09be\u0987\u0995\u09c1\u09ae! \u0995\u09c7\u09ae\u09a8 \u0986\u099b\u09c7\u09a8?"
+    }
+]

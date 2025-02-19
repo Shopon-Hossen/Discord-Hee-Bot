@@ -1,6 +1,9 @@
 import groq
 import json
 import os
+from dotenv import load_dotenv
+load_dotenv()
+
 
 
 ALLOWED_CHANNEL_ID = [
@@ -40,9 +43,8 @@ def append_message(role, content):
     with open("messages_log.json", "w") as f:
         json.dump(MESSAGES, f, indent=4)
 
-
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-groq_client = groq.Groq(api_key=GROQ_API_KEY)
+ 
+groq_client = groq.Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 
 def completion(message):
